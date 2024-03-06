@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Syne", sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(17, 7, 80);
+}
+
+.menu-links, .menu-items{
+    display: flex;
+}
+.menu-items{
+    list-style: none;
+}
+
+.menu-items{
+    margin-top: 5px;
+}
+
+.menu-items li a{
+    text-decoration: none;
+    margin: 0px 30px 5px 0px;
+    color: white;
+}
+
+.menu-items li a:hover{
+
+    color: white;
+    text-shadow: 0px 5px 5px white;
+    transition: 0.2ms;
+    background-color:rgb(14, 14, 44);
+}
+
+/* HOME PAGE */
+
+.main-div{
+    background-color: rgb(14, 14, 44);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+
+.main-div img{
+    width: 30%;
+    border-radius: 50%;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+ .inner-div{
+    width: 50%;
+    height: 200px;
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 320px 320px 0px;
+}
+
+.inner-div .icons{
+    display: flex;
+    justify-content: center;
+} 
+
+.icons a:hover{
+    color: white;
+    transition: 0.2s;
+}
+
+.inner-div h1{
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #fff;
+}
+
+.inner-div p{
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.icons{
+    list-style: none;
+    gap: 20px;
+}
+/* ABOUT SECTION */
+
+.heading{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inner_div_two{
+    width: 100%;
+    position: relative;
+}
+
+.inner_div_two img{
+    width: 100%;
+}
+.progress_div{
+    width: 50%;
+    padding: 10px;
+    position: absolute;
+    color: white;
+    bottom: 50px;
+    left: 10px;
+    
+}
+
+#inner-slider{
+    background-color: rgb(212, 87, 108);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.about{
+    margin: 2px auto 5px;
+}
+
+.about_me{
+    position: absolute;
+    margin: 570px 600px 0;
+    width: 50%;
+    height: 20vh;
+}
+
+.about_me p{
+    letter-spacing: 2px;
+}
+
+button{
+    font-weight: bold;
+    font-size: 20px ;
+    margin: 20px 30% 0;
+}
+
+Link{
+    text-decoration: none;
+}
+
+.about{
+    text-align: center;
+}
+
+span{
+    color:rgb(51, 47, 47);
+    font-weight: bold;
+    outline: none;
+    border: none;
+}
+
+/* Project section */
+
+.project_section{
+    background-color: rgb(14, 14, 44);
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+
+.heading_section{
+    padding: 20px;
+    display: grid;
+    gap: 5px;
+    letter-spacing: 3px;
+}
+
+.grid_class{
+    width: 1200px;
+    display: grid;
+    justify-content: center;
+    margin: 50px 50px 0;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px 200px 200px;
+    gap: 20px;
+}
+
+.grid_here{
+    display: grid;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 400;
+    box-shadow: 0px 0px 5px #fff;
+}
+
+
+/* ABOUT_SECTION */
+
+.contact_section{
+    background-color: rgb(14, 14, 44);
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+
+.contact_section{
+    padding: 20px;
+    display: grid;
+    gap: 5px;
+    letter-spacing: 3px;
+}
+
+.grid_section{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 420px;
+    gap: 10px;
+}
+input{
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 5px;
+    background-color: rgb(238, 230, 230);
+    border: none;
+    padding: 5px;
+}
+textarea{
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 5px;
+    background-color: rgb(238, 230, 230);
+    border: none;
+    padding: 5px;
+}
+#btn3{
+    background-color: transparent;
+    color: #e4e3e3;
+    width: 15%;
+    height: 7vh;
+    margin-left: 580px;
+    border: 1px solid #fff;
+    font-weight: 100;
+    transition: 2ms;
+}
+
+#btn3:hover{
+    border: 2px solid white;
+}
+
+
+
